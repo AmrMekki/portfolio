@@ -121,3 +121,15 @@ function showCopiedPopup() {
     setTimeout(() => { document.body.removeChild(popup); }, 300);
   }, 1500);
 }
+
+// Hamburger menu toggle
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  document.querySelector('nav ul').classList.toggle('active');
+});
+
+// Optional: close menu when a link is clicked (for better UX)
+document.querySelectorAll('nav ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('nav ul').classList.remove('active');
+  });
+});
