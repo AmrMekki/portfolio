@@ -1051,3 +1051,33 @@ footer {
         padding: 2rem;
     }
 }
+
+/* Responsive navigation logo fix */
+@media (max-width: 600px) {
+  nav .logo {
+    font-size: 1.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px;
+    display: block;
+  }
+  nav .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+/* Prevent logo from wrapping to two lines */
+nav .logo {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: block;
+}
