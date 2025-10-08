@@ -219,27 +219,21 @@ nav a:hover::after {
 }
 
 .hero::before {
-    content: '';
+    content: "";
     position: absolute;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(0, 102, 255, 0.15) 0%, transparent 70%);
-    top: -200px;
-    right: -200px;
-    animation: float 20s infinite;
+    inset: 0;
+    background: url('images/BG_01.avif') center/cover no-repeat;
+    opacity: 0.18; /* Adjust for desired lightness */
+    z-index: 0;
+    pointer-events: none;
 }
 
-.hero::after {
-    content: '';
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(0, 217, 255, 0.1) 0%, transparent 70%);
-    bottom: -150px;
-    left: -150px;
-    animation: float 15s infinite reverse;
+.hero .container {
+    position: relative;
+    z-index: 1;
 }
 
+/* Floating elements animation */
 @keyframes float {
 
     0%,
@@ -422,6 +416,24 @@ section {
 /* About Section */
 .about {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_02.avif') center/cover no-repeat;
+    opacity: 0.05;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.about .container {
+    position: relative;
+    z-index: 1;
 }
 
 .about-content {
@@ -474,6 +486,19 @@ section {
 /* Specializations */
 .specializations {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.specializations::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_03.avif') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .spec-grid {
@@ -536,6 +561,19 @@ section {
 /* Experience Timeline */
 .experience {
     background: var(--bg-primary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.experience::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_04.jpg') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .timeline {
@@ -624,6 +662,19 @@ section {
 /* Education */
 .education {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.education::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_11.jpeg') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .education-grid {
@@ -670,6 +721,19 @@ section {
 /* Awards */
 .awards {
     background: var(--bg-primary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.awards::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_05.gif') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .award-card {
@@ -701,6 +765,19 @@ section {
 /* Skills */
 .skills {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.skills::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_09.jpg') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .skills-grid {
@@ -751,6 +828,19 @@ section {
 /* Publications */
 .publications {
     background: var(--bg-primary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.publications::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_12.jpeg') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .publications-grid {
@@ -800,6 +890,19 @@ section {
 /* Projects */
 .projects {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.projects::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_07.jpg') center/cover no-repeat;
+    opacity: 0.05;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .projects-grid {
@@ -993,6 +1096,19 @@ section {
 /* Languages */
 .languages {
     background: var(--bg-secondary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.languages::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_08.jpeg') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .languages-grid {
@@ -1027,6 +1143,19 @@ section {
 .contact {
     text-align: center;
     background: var(--bg-primary);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('images/BG_05.gif') center/cover no-repeat;
+    opacity: 0.10;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .contact-info {
@@ -1067,6 +1196,19 @@ footer {
     text-align: center;
     color: var(--text-muted);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('images/BG_05.gif') center/cover no-repeat;
+  opacity: 0.10;
+  z-index: 0;
+  pointer-events: none;
 }
 
 [data-theme="light"] footer {
