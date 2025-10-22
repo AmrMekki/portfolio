@@ -14,7 +14,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url('../images/BG_01.avif') center/cover no-repeat;
+    background: url('images/BG_01.avif') center/cover no-repeat;
     opacity: 0.18; /* Adjust for desired lightness */
     z-index: 0;
     pointer-events: none;
