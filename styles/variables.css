@@ -1,0 +1,26 @@
+:root {
+    --primary: #0066FF;
+    --primary-dark: #0052CC;
+    --secondary: #00D9FF;
+    --dark: #0A0E27;
+    --dark-light: #1A1F3A;
+    --text: #E8EAED;
+    --text-muted: #9AA0A6;
+    --accent: #FF6B35;
+    --bg-primary: #0A0E27;
+    --bg-secondary: #1A1F3A;
+}
+
+[data-theme="light"] {
+    --dark: #FFFFFF;
+    --dark-light: #F5F7FA;
+    --text: #1A1F3A;
+    --text-muted: #6B7280;
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F5F7FA;
+}
+
+/* Make university logo white in dark mode */
+[data-theme="dark"] img[alt="AAST Logo"] {
+  filter: brightness(0) invert(1);
+}
