@@ -50,7 +50,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_02.avif') center/cover no-repeat;
+    background: url('../images/BG_02.avif') center/cover no-repeat;
     opacity: 0.05;
     z-index: 0;
     pointer-events: none;
@@ -120,7 +120,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_03.avif') center/cover no-repeat;
+    background: url('../images/BG_03.avif') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -195,7 +195,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_04.jpg') center/cover no-repeat;
+    background: url('../images/BG_04.jpg') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -296,7 +296,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_11.jpeg') center/cover no-repeat;
+    background: url('../images/BG_11.jpeg') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -355,7 +355,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_05.gif') center/cover no-repeat;
+    background: url('../images/BG_05.gif') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -399,7 +399,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_09.jpg') center/cover no-repeat;
+    background: url('../images/BG_09.jpg') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -462,7 +462,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_12.jpeg') center/cover no-repeat;
+    background: url('../images/BG_12.jpeg') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -524,7 +524,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_07.jpg') center/cover no-repeat;
+    background: url('../images/BG_07.jpg') center/cover no-repeat;
     opacity: 0.05;
     z-index: 0;
     pointer-events: none;
@@ -630,7 +630,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_08.jpeg') center/cover no-repeat;
+    background: url('../images/BG_08.jpeg') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -677,7 +677,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('images/BG_05.gif') center/cover no-repeat;
+    background: url('../images/BG_05.gif') center/cover no-repeat;
     opacity: 0.10;
     z-index: 0;
     pointer-events: none;
@@ -729,7 +729,7 @@ footer::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('images/BG_05.gif') center/cover no-repeat;
+  background: url('../images/BG_05.gif') center/cover no-repeat;
   opacity: 0.10;
   z-index: 0;
   pointer-events: none;
